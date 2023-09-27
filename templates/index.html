@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body>
+    <h1><center>INICIO</center></h1>
+    <form action="{{ url_for('resultado') }}">
+        <center><img src="https://maplink.global/blog/wp-content/uploads/2019/06/pins-no-mapa.jpg" width="500" height="300" ></center><br>
+        <!-- <center><h6>Nota: Ingresa un digito del 1 al 10</h6></center> -->
+        <center><label>Maximo de carga</label></center>
+        <br>
+        <center><input type="text" name="maxcarga"></center>
+        <br>
+        <center><input type="submit" value="Enviar"></center>
+    </form>
+</body>
+</html>
